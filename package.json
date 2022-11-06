@@ -1,0 +1,33 @@
+{
+    "name": "rosecut-backend-stack-financial-planning",
+    "version": "1.0.0",
+    "engines": {
+        "node": ">=14"
+    },
+    "description": "provides apis and integration for users financial planning",
+    "main": "index.js",
+    "scripts": {
+        "prettier": "prettier --write \"app/**/*.{js,ts}\" \"infra/**/*.{js,ts}\"",
+        "lint": "eslint -c .eslintrc.json --ext .ts --ext .js --fix ./app ./infra"
+    },
+    "devDependencies": {
+        "@types/jasmine": "^4.3.0",
+        "@types/jest": "^29.2.0",
+        "@types/mocha": "^10.0.0",
+        "@types/node": "^18.11.3",
+        "@typescript-eslint/eslint-plugin": "^5.28.0",
+        "@typescript-eslint/parser": "^5.28.0",
+        "eslint": "8.22.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "eslint-plugin-unused-imports": "^2.0.0",
+        "prettier": "^2.7.1",
+        "typescript": "^4.3.5"
+    },
+    "private": true,
+    "author": {
+        "name": "Rosecut"
+    },
+    "license": "Rosecut"
+}
